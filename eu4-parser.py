@@ -5,18 +5,18 @@ import re
 """
 SETTINGS
 """
-save_file = './test.eu4'
-game_dir = 'C:/Program Files (x86)/Steam/steamapps/common/Europa Universalis IV/'
+save_file = 'test.eu4'
+game_dir = r'C:\Program Files (x86)\Steam\steamapps\common\Europa Universalis IV'
 last_pid = 4789 # Replace with automated check? Correct as of 1.30 Austria
 """
 END OF SETTINGS
 """
 
-#prov_dir = game_dir + 'history/provinces' # not used with save_file
+#prov_dir = game_dir + '/history/provinces' # not used with save_file
 #cur_date = (1444, 11, 11) # not used with save_file
 
-country_fn = game_dir + 'common/country_tags/00_countries.txt'
-localise_fn = game_dir + 'localisation/countries_l_english.yml'
+country_fn = game_dir + '/common/country_tags/00_countries.txt'
+localise_fn = game_dir + '/localisation/countries_l_english.yml'
 
 
 
